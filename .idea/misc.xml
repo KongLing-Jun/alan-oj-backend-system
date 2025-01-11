@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/oj-system/pom.xml" />
+        <option value="$PROJECT_DIR$/oj-modules/pom.xml" />
+        <option value="$PROJECT_DIR$/oj-modules/oj-system/pom.xml" />
+        <option value="$PROJECT_DIR$/oj-modules/oj-common/pom.xml" />
+        <option value="$PROJECT_DIR$/oj-modules/oj-api/pom.xml" />
+        <option value="$PROJECT_DIR$/oj-modules/oj-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/oj-common/pom.xml" />
+        <option value="$PROJECT_DIR$/oj-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/oj-api/pom.xml" />
+        <option value="$PROJECT_DIR$/oj-common/oj-common-core/pom.xml" />
+        <option value="$PROJECT_DIR$/oj-modules/oj-friend/pom.xml" />
+        <option value="$PROJECT_DIR$/oj-modules/oj-job/pom.xml" />
+        <option value="$PROJECT_DIR$/oj-modules/oj-judge/pom.xml" />
+        <option value="$PROJECT_DIR$/oj-common/oj-common-swagger/pom.xml" />
+        <option value="$PROJECT_DIR$/oj-common/oj-common-security/pom.xml" />
+        <option value="$PROJECT_DIR$/oj-common/oj-common-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/oj-common/oj-common-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/oj-common/oj-common-message/pom.xml" />
+        <option value="$PROJECT_DIR$/oj-common/oj-common-file/pom.xml" />
+        <option value="$PROJECT_DIR$/oj-common/oj-common-elsticsearch/pom.xml" />
+        <option value="$PROJECT_DIR$/oj-common/oj-common-rabbitmq/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/oj-system/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

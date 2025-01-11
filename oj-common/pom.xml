@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>alan-oj</artifactId>
+        <groupId>com.thinking</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>oj-common</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>oj-common-core</module>
+        <module>oj-common-swagger</module>
+        <module>oj-common-security</module>
+        <module>oj-common-redis</module>
+        <module>oj-common-mybatis</module>
+        <module>oj-common-message</module>
+        <module>oj-common-file</module>
+        <module>oj-common-elsticsearch</module>
+        <module>oj-common-rabbitmq</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+</project>
