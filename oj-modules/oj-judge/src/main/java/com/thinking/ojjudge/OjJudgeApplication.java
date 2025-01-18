@@ -9,5 +9,4 @@ public class OjJudgeApplication {
     public static void main(String[] args) {
         SpringApplication.run(OjJudgeApplication.class, args);
     }
-
 }

@@ -4,144 +4,62 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27f8f418-9671-4c3e-b669-4c3bed4a9d62" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-api/src/main/java/com/thinking/ojapi/OjApiApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-api/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-api/src/test/java/com/thinking/ojapi/OjApiApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-api/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-core/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-core/src/main/java/com/thinking/ojcommoncore/OjCommonCoreApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-core/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-core/src/test/java/com/thinking/ojcommoncore/OjCommonCoreApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-core/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-elsticsearch/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-elsticsearch/src/main/java/com/thinking/ojcommonelsticsearch/OjCommonElsticsearchApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-elsticsearch/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-elsticsearch/src/test/java/com/thinking/ojcommonelsticsearch/OjCommonElsticsearchApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-elsticsearch/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-elsticsearch/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-elsticsearch/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-file/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-file/src/main/java/com/thinking/ojcommonfile/OjCommonFileApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-file/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-file/src/test/java/com/thinking/ojcommonfile/OjCommonFileApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-file/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-file/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-file/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-message/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-message/src/main/java/com/thinking/ojcommonmessage/OjCommonMessageApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-message/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-message/src/test/java/com/thinking/ojcommonmessage/OjCommonMessageApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-message/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-message/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-message/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-mybatis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-mybatis/src/main/java/com/thinking/ojcommonmybatis/OjCommonMybatisApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-mybatis/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-mybatis/src/test/java/com/thinking/ojcommonmybatis/OjCommonMybatisApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-mybatis/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-mybatis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-mybatis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-rabbitmq/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-rabbitmq/src/main/java/com/thinking/ojcommonrabbitmq/OjCommonRabbitmqApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-rabbitmq/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-rabbitmq/src/test/java/com/thinking/ojcommonrabbitmq/OjCommonRabbitmqApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-rabbitmq/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-rabbitmq/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-rabbitmq/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-redis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-redis/src/main/java/com/thinking/ojcommonredis/OjCommonRedisApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-redis/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-redis/src/test/java/com/thinking/ojcommonredis/OjCommonRedisApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-redis/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-redis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-redis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-security/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-security/src/main/java/com/thinking/ojcommonsecurity/OjCommonSecurityApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-security/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-security/src/test/java/com/thinking/ojcommonsecurity/OjCommonSecurityApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-security/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-security/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-security/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-swagger/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-swagger/src/main/java/com/thinking/ojcommonswagger/OjCommonSwaggerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-swagger/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-swagger/src/test/java/com/thinking/ojcommonswagger/OjCommonSwaggerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-swagger/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-swagger/target/maven-status/maven-compiler-plugin/compile/default-cli/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-swagger/target/maven-status/maven-compiler-plugin/compile/default-cli/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-swagger/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-swagger/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-gateway/src/main/java/com/thinking/ojgateway/OjGatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-gateway/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-gateway/src/test/java/com/thinking/ojgateway/OjGatewayApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-gateway/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-friend/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-friend/src/main/java/com/thinking/ojfriend/OjFriendApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-friend/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-friend/src/test/java/com/thinking/ojfriend/OjFriendApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-friend/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-friend/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-friend/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-job/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-job/src/main/java/com/thinking/ojjob/OjJobApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-job/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-job/src/test/java/com/thinking/ojjob/OjJobApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-job/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-job/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-job/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-judge/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-judge/src/main/java/com/thinking/ojjudge/OjJudgeApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-judge/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-judge/src/test/java/com/thinking/ojjudge/OjJudgeApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-judge/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-judge/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-judge/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/ojsystem/OjSystemApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/test/java/com/thinking/ojsystem/OjSystemApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="27f8f418-9671-4c3e-b669-4c3bed4a9d62" name="Changes" comment="初始化所有模块">
+      <change afterPath="$PROJECT_DIR$/oj-modules/oj-judge/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-core/src/main/java/com/thinking/ojcommoncore/OjCommonCoreApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-core/src/main/java/com/thinking/common/OjCommonCoreApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-core/src/test/java/com/thinking/ojcommoncore/OjCommonCoreApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-core/src/test/java/com/thinking/common/OjCommonCoreApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-file/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-file/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-message/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-message/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-mybatis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-redis/src/main/java/com/thinking/ojcommonredis/OjCommonRedisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-redis/src/main/java/com/thinking/common/OjCommonRedisApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-redis/src/test/java/com/thinking/ojcommonredis/OjCommonRedisApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-redis/src/test/java/com/thinking/common/OjCommonRedisApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-security/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-swagger/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-swagger/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oj-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-modules/oj-friend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-friend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-modules/oj-job/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-job/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-modules/oj-judge/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-judge/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-modules/oj-judge/src/main/java/com/thinking/ojjudge/OjJudgeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-judge/src/main/java/com/thinking/ojjudge/OjJudgeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-system/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/ojsystem/OjSystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/ojsystem/OjSystemApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-modules/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "KongLing-Jun"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;KongLing-Jun&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/KongLing-Jun/alan-oj-backend-system.git",
-    "accountId": "02d33ebd-bd40-4f3e-8c0c-fc194e3f03b4"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/KongLing-Jun/alan-oj-backend-system.git&quot;,
+    &quot;accountId&quot;: &quot;02d33ebd-bd40-4f3e-8c0c-fc194e3f03b4&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -155,10 +73,10 @@
   <component name="MavenRunner">
     <option name="jreName" value="17" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2rT88UKD0MJ6oqAgGf42aPLCYGz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -173,29 +91,47 @@
     "Maven.alan-oj [org.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile].executor": "Run",
     "Maven.alan-oj [org.apache.maven.plugins:maven-install-plugin:3.0.1:install].executor": "Run",
     "Maven.oj-common-swagger [org.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile].executor": "Run",
+    "Maven.oj-modules [clean].executor": "Run",
+    "Maven.oj-modules [compile].executor": "Run",
     "Maven.oj-system [clean].executor": "Run",
     "Maven.oj-system [compile].executor": "Run",
+    "Maven.oj-system [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
+    "Maven.oj-system [org.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.OjFriendApplication.executor": "Run",
+    "Spring Boot.OjJobApplication.executor": "Run",
+    "Spring Boot.OjJudgeApplication.executor": "Run",
     "Spring Boot.OjSystemApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "F:/oj-system/oj-backend-system/alan-oj",
+    "last_opened_file_path": "F:/oj-system/oj-backend-system/alan-oj/oj-common/oj-common-redis/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.20114942",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\oj-system\oj-backend-system\alan-oj\oj-common\oj-common-redis\src\main\resources" />
+      <recent name="F:\oj-system\oj-backend-system\alan-oj\oj-modules\oj-job\src\main\resources" />
+      <recent name="F:\oj-system\oj-backend-system\alan-oj\oj-modules\oj-friend\src\main\resources" />
+      <recent name="F:\oj-system\oj-backend-system\alan-oj\oj-modules\oj-judge\src\main\resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\oj-system\oj-backend-system\alan-oj\oj-common\oj-common-redis\src\main\resources\META-INF\spring" />
       <recent name="F:\oj-system\oj-backend-system\alan-oj" />
     </key>
   </component>
@@ -204,94 +140,11 @@
       <set>
         <option value="MicronautRunConfigurationType" />
         <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OjSystemApplication">
-    <configuration name="AlanOjApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="alan-oj" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thinking.alanoj.AlanOjApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OjApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="oj-api" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thinking.ojapi.OjApiApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OjCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="oj-common" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thinking.ojcommon.OjCommonApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OjCommonCoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="oj-common-core" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thinking.ojcommoncore.OjCommonCoreApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OjCommonElsticsearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="oj-common-elsticsearch" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thinking.ojcommonelsticsearch.OjCommonElsticsearchApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OjCommonFileApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="oj-common-file" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thinking.ojcommonfile.OjCommonFileApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OjCommonMessageApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="oj-common-message" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thinking.ojcommonmessage.OjCommonMessageApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OjCommonMybatisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="oj-common-mybatis" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thinking.ojcommonmybatis.OjCommonMybatisApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OjCommonRabbitmqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="oj-common-rabbitmq" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thinking.ojcommonrabbitmq.OjCommonRabbitmqApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OjCommonRedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="oj-common-redis" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thinking.ojcommonredis.OjCommonRedisApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OjCommonSecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="oj-common-security" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thinking.ojcommonsecurity.OjCommonSecurityApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OjCommonSwaggerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="oj-common-swagger" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thinking.ojcommonswagger.OjCommonSwaggerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.OjJobApplication">
     <configuration name="OjFriendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="oj-friend" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.thinking.ojfriend.OjFriendApplication" />
@@ -320,13 +173,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OjModulesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="oj-modules" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thinking.ojmodules.OjModulesApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="OjSystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="oj-system" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.thinking.ojsystem.OjSystemApplication" />
@@ -351,8 +197,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736571546230</updated>
-      <workItem from="1736571547166" duration="6278000" />
+      <workItem from="1736571547166" duration="6361000" />
+      <workItem from="1736587353240" duration="4996000" />
+      <workItem from="1736599372451" duration="392000" />
+      <workItem from="1736599926756" duration="6000" />
+      <workItem from="1737212827344" duration="3408000" />
     </task>
+    <task id="LOCAL-00001" summary="初始化所有模块">
+      <option name="closed" value="true" />
+      <created>1736577855606</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1736577855606</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,5 +227,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初始化所有模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化所有模块" />
   </component>
 </project>

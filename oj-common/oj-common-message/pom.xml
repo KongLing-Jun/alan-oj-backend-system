@@ -22,11 +22,11 @@
             <artifactId>dysmsapi20170525</artifactId>
             <version>3.0.0</version>
         </dependency>
-        <dependency>
-            <groupId>com.alibaba.fastjson2</groupId>
-            <artifactId>fastjson2</artifactId>
-            <version>${fastjson.version}</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.alibaba.fastjson2</groupId>-->
+<!--            <artifactId>fastjson2</artifactId>-->
+<!--            <version>${fastjson.version}</version>-->
+<!--        </dependency>-->
     </dependencies>
 
 </project>

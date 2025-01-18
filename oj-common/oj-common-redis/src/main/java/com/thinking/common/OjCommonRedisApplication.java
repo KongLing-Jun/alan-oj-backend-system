@@ -1,13 +1,13 @@
-package com.thinking.ojcommoncore;
+package com.thinking.common;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class OjCommonCoreApplication {
+public class OjCommonRedisApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(OjCommonCoreApplication.class, args);
+        SpringApplication.run(OjCommonRedisApplication.class, args);
     }
 
 }
