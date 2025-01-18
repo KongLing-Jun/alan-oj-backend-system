@@ -1,0 +1,2 @@
+com.thinking.common.redis.config.RedisConfig
+com.thinking.common.redis.service.RedisService

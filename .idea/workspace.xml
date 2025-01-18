@@ -4,35 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27f8f418-9671-4c3e-b669-4c3bed4a9d62" name="Changes" comment="初始化所有模块">
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-judge/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-core/src/main/java/com/thinking/ojcommoncore/OjCommonCoreApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-core/src/main/java/com/thinking/common/OjCommonCoreApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-core/src/test/java/com/thinking/ojcommoncore/OjCommonCoreApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-core/src/test/java/com/thinking/common/OjCommonCoreApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-file/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-file/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-message/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-message/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-mybatis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-redis/src/main/java/com/thinking/ojcommonredis/OjCommonRedisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-redis/src/main/java/com/thinking/common/OjCommonRedisApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-redis/src/test/java/com/thinking/ojcommonredis/OjCommonRedisApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-redis/src/test/java/com/thinking/common/OjCommonRedisApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-security/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-swagger/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-swagger/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oj-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-modules/oj-friend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-friend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-modules/oj-job/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-job/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-modules/oj-judge/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-judge/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-modules/oj-judge/src/main/java/com/thinking/ojjudge/OjJudgeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-judge/src/main/java/com/thinking/ojjudge/OjJudgeApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-system/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/ojsystem/OjSystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/ojsystem/OjSystemApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-modules/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="27f8f418-9671-4c3e-b669-4c3bed4a9d62" name="Changes" comment="完成一部分redis配置" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -201,7 +173,7 @@
       <workItem from="1736587353240" duration="4996000" />
       <workItem from="1736599372451" duration="392000" />
       <workItem from="1736599926756" duration="6000" />
-      <workItem from="1737212827344" duration="3408000" />
+      <workItem from="1737212827344" duration="3791000" />
     </task>
     <task id="LOCAL-00001" summary="初始化所有模块">
       <option name="closed" value="true" />
@@ -211,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736577855606</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="完成一部分redis配置">
+      <option name="closed" value="true" />
+      <created>1737216486616</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737216486617</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +210,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始化所有模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始化所有模块" />
+    <MESSAGE value="完成一部分redis配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成一部分redis配置" />
   </component>
 </project>
