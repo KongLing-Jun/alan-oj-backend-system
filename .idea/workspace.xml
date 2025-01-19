@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27f8f418-9671-4c3e-b669-4c3bed4a9d62" name="Changes" comment="完成一部分redis配置" />
+    <list default="true" id="27f8f418-9671-4c3e-b669-4c3bed4a9d62" name="Changes" comment="完成一部分redis配置">
+      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-mybatis/src/main/resources/META-INF/spring/oj-common/oj-common-mybatis/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-swagger/src/main/resources/META-INF/spring/oj-common/oj-common-swagger/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-mybatis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-mybatis/src/main/java/com/thinking/ojcommonmybatis/OjCommonMybatisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-mybatis/src/main/java/com/thinking/common/OjCommonMybatisApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-mybatis/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-mybatis/src/test/java/com/thinking/ojcommonmybatis/OjCommonMybatisApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-mybatis/src/test/java/com/thinking/common/OjCommonMybatisApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-redis/src/main/java/com/thinking/common/redis/service/RedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-redis/src/main/java/com/thinking/common/redis/service/RedisService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-redis/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-swagger/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-swagger/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-swagger/src/main/java/com/thinking/ojcommonswagger/OjCommonSwaggerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-swagger/src/main/java/com/thinking/common/OjCommonSwaggerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-swagger/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-swagger/src/test/java/com/thinking/ojcommonswagger/OjCommonSwaggerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-swagger/src/test/java/com/thinking/common/OjCommonSwaggerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,46 +71,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "Maven.alan-oj [compile].executor": "Run",
-    "Maven.alan-oj [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
-    "Maven.alan-oj [org.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile].executor": "Run",
-    "Maven.alan-oj [org.apache.maven.plugins:maven-install-plugin:3.0.1:install].executor": "Run",
-    "Maven.oj-common-swagger [org.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile].executor": "Run",
-    "Maven.oj-modules [clean].executor": "Run",
-    "Maven.oj-modules [compile].executor": "Run",
-    "Maven.oj-system [clean].executor": "Run",
-    "Maven.oj-system [compile].executor": "Run",
-    "Maven.oj-system [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
-    "Maven.oj-system [org.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.OjFriendApplication.executor": "Run",
-    "Spring Boot.OjJobApplication.executor": "Run",
-    "Spring Boot.OjJudgeApplication.executor": "Run",
-    "Spring Boot.OjSystemApplication.executor": "Run",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "F:/oj-system/oj-backend-system/alan-oj/oj-common/oj-common-redis/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.20114942",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.alan-oj [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.alan-oj [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.alan-oj [org.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.alan-oj [org.apache.maven.plugins:maven-install-plugin:3.0.1:install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.oj-common-swagger [org.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.oj-modules [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.oj-modules [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.oj-system [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.oj-system [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.oj-system [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.oj-system [org.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.OjFriendApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.OjJobApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.OjJudgeApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.OjSystemApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/oj-system/oj-backend-system/alan-oj/oj-common/oj-common-redis/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.20114942&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\oj-system\oj-backend-system\alan-oj\oj-common\oj-common-redis\src\main\resources" />
@@ -173,7 +189,11 @@
       <workItem from="1736587353240" duration="4996000" />
       <workItem from="1736599372451" duration="392000" />
       <workItem from="1736599926756" duration="6000" />
-      <workItem from="1737212827344" duration="3791000" />
+      <workItem from="1737212827344" duration="4369000" />
+      <workItem from="1737263436534" duration="175000" />
+      <workItem from="1737263639797" duration="6870000" />
+      <workItem from="1737283306356" duration="278000" />
+      <workItem from="1737283593227" duration="2223000" />
     </task>
     <task id="LOCAL-00001" summary="初始化所有模块">
       <option name="closed" value="true" />
@@ -191,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737216486617</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="完成一部分redis配置">
+      <option name="closed" value="true" />
+      <created>1737216899843</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1737216899843</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

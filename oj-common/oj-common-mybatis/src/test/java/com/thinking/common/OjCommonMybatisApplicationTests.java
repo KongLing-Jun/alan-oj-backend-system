@@ -1,10 +1,10 @@
-package com.thinking.ojcommonswagger;
+package com.thinking.common;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class OjCommonSwaggerApplicationTests {
+class OjCommonMybatisApplicationTests {
 
     @Test
     void contextLoads() {
