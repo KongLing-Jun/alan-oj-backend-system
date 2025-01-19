@@ -1,4 +1,4 @@
-package com.thinking.ojsystem;
+package com.thinking.system;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

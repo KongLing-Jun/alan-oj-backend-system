@@ -1,4 +1,4 @@
-package com.thinking.ojsystem;
+package com.thinking.system;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

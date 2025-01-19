@@ -4,21 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27f8f418-9671-4c3e-b669-4c3bed4a9d62" name="Changes" comment="完成一部分redis配置">
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-mybatis/src/main/resources/META-INF/spring/oj-common/oj-common-mybatis/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-swagger/src/main/resources/META-INF/spring/oj-common/oj-common-swagger/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
+    <list default="true" id="27f8f418-9671-4c3e-b669-4c3bed4a9d62" name="Changes" comment="基本完成core-common中所有常量类编写">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oj-common/oj-common-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-mybatis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-mybatis/src/main/java/com/thinking/ojcommonmybatis/OjCommonMybatisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-mybatis/src/main/java/com/thinking/common/OjCommonMybatisApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-mybatis/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-mybatis/src/test/java/com/thinking/ojcommonmybatis/OjCommonMybatisApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-mybatis/src/test/java/com/thinking/common/OjCommonMybatisApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-redis/src/main/java/com/thinking/common/redis/service/RedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-redis/src/main/java/com/thinking/common/redis/service/RedisService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-redis/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-swagger/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-swagger/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-swagger/src/main/java/com/thinking/ojcommonswagger/OjCommonSwaggerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-swagger/src/main/java/com/thinking/common/OjCommonSwaggerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-swagger/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-swagger/src/test/java/com/thinking/ojcommonswagger/OjCommonSwaggerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-swagger/src/test/java/com/thinking/common/OjCommonSwaggerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-core/src/main/java/com/thinking/common/core/domain/PageQueryDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-core/src/main/java/com/thinking/common/core/domain/PageQueryDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-system/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/ojsystem/OjSystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/OjSystemApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/src/test/java/com/thinking/ojsystem/OjSystemApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/test/java/com/thinking/system/OjSystemApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -60,6 +53,9 @@
   </component>
   <component name="MavenRunner">
     <option name="jreName" value="17" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -163,7 +159,7 @@
     </configuration>
     <configuration name="OjSystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="oj-system" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thinking.ojsystem.OjSystemApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.thinking.system.OjSystemApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -193,7 +189,8 @@
       <workItem from="1737263436534" duration="175000" />
       <workItem from="1737263639797" duration="6870000" />
       <workItem from="1737283306356" duration="278000" />
-      <workItem from="1737283593227" duration="2223000" />
+      <workItem from="1737283593227" duration="2743000" />
+      <workItem from="1737297230608" duration="4251000" />
     </task>
     <task id="LOCAL-00001" summary="初始化所有模块">
       <option name="closed" value="true" />
@@ -219,7 +216,23 @@
       <option name="project" value="LOCAL" />
       <updated>1737216899843</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="基本完成core-common中所有常量类编写">
+      <option name="closed" value="true" />
+      <created>1737286004266</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1737286004266</updated>
+    </task>
+    <task id="LOCAL-00005" summary="基本完成core-common中所有常量类编写">
+      <option name="closed" value="true" />
+      <created>1737286015904</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1737286015904</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,6 +252,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始化所有模块" />
     <MESSAGE value="完成一部分redis配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成一部分redis配置" />
+    <MESSAGE value="基本完成core-common中所有常量类编写" />
+    <option name="LAST_COMMIT_MESSAGE" value="基本完成core-common中所有常量类编写" />
   </component>
 </project>
