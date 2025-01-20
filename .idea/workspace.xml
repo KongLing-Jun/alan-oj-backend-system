@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27f8f418-9671-4c3e-b669-4c3bed4a9d62" name="Changes" comment="基本完成core-common中所有常量类编写">
+    <list default="true" id="27f8f418-9671-4c3e-b669-4c3bed4a9d62" name="Changes" comment="完成结果封装类以及一些封装类的编写">
+      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-core/src/main/java/com/thinking/common/core/enums/ExamListType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-core/src/main/java/com/thinking/common/core/enums/ProgramType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-core/src/main/java/com/thinking/common/core/enums/QuestionResult.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oj-common/oj-common-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-core/src/main/java/com/thinking/common/core/domain/PageQueryDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-core/src/main/java/com/thinking/common/core/domain/PageQueryDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-system/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/ojsystem/OjSystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/OjSystemApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/src/test/java/com/thinking/ojsystem/OjSystemApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/test/java/com/thinking/system/OjSystemApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +188,8 @@
       <workItem from="1737263639797" duration="6870000" />
       <workItem from="1737283306356" duration="278000" />
       <workItem from="1737283593227" duration="2743000" />
-      <workItem from="1737297230608" duration="4251000" />
+      <workItem from="1737297230608" duration="4485000" />
+      <workItem from="1737364784898" duration="2050000" />
     </task>
     <task id="LOCAL-00001" summary="初始化所有模块">
       <option name="closed" value="true" />
@@ -232,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737286015904</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="完成结果封装类以及一些封装类的编写">
+      <option name="closed" value="true" />
+      <created>1737302449319</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1737302449319</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +260,7 @@
     <MESSAGE value="初始化所有模块" />
     <MESSAGE value="完成一部分redis配置" />
     <MESSAGE value="基本完成core-common中所有常量类编写" />
-    <option name="LAST_COMMIT_MESSAGE" value="基本完成core-common中所有常量类编写" />
+    <MESSAGE value="完成结果封装类以及一些封装类的编写" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成结果封装类以及一些封装类的编写" />
   </component>
 </project>
