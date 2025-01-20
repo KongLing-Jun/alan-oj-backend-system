@@ -1,10 +1,10 @@
-package com.thinking.ojcommonfile;
+package com.thinking.common;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class OjCommonFileApplicationTests {
+class OjCommonElsticsearchApplicationTests {
 
     @Test
     void contextLoads() {

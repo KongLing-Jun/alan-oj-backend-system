@@ -1,13 +1,13 @@
-package com.thinking.ojcommonsecurity;
+package com.thinking.common;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class OjCommonSecurityApplication {
+public class OjCommonFileApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(OjCommonSecurityApplication.class, args);
+        SpringApplication.run(OjCommonFileApplication.class, args);
     }
 
 }
