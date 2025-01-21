@@ -30,6 +30,10 @@ public class Constants {
 
     public static final String SEND_MESSAGE_SUCCESS = "OK";
 
+    public static final String UPLOAD_FILE_SUFFIX = "a.png";
+
+    public static final String OSS_UPLOAD_FILE_ERROR = "OSS upload file error";
+
     /**
      * UTF-8 字符集
      */
@@ -40,4 +44,6 @@ public class Constants {
     public static final int HOST_QUESTION_LIST_START = 1;
 
     public static final int HOST_QUESTION_LIST_END = 5;
+
+    public static final int STRING_LENGTH_PARAMETER = 500;
 }

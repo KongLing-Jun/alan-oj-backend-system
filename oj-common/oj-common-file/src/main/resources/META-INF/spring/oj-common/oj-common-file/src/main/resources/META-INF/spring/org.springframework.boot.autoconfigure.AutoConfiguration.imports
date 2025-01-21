@@ -1,0 +1,3 @@
+com.thinking.common.file.config.OSSConfig
+com.thinking.common.file.service.OSSService
+com.thinking.common.file.config.OSSProperties

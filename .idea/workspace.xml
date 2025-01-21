@@ -4,20 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27f8f418-9671-4c3e-b669-4c3bed4a9d62" name="Changes" comment="完成token配置编写，并可以使用redis缓存token">
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-message/src/main/java/com/thinking/common/message/service/AliSmsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-message/src/main/resources/META-INF/spring/oj-common/oj-common-message/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-rabbitmq/src/main/resources/META-INF/spring/oj-common/oj-common-security/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-security/src/main/resources/META-INF/spring/oj-common/oj-common-rabbitmq/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
+    <list default="true" id="27f8f418-9671-4c3e-b669-4c3bed4a9d62" name="Changes" comment="添加阿里云短信服务和RabbitMQ配置">
+      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-file/src/main/java/com/thinking/common/file/config/OSSProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-file/src/main/java/com/thinking/common/file/service/OSSService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-file/src/main/resources/META-INF/spring/oj-common/oj-common-file/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-core/src/main/java/com/thinking/common/OjCommonCoreApplication.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/oj-common/oj-common-core/src/main/java/com/thinking/common/core/constants/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-core/src/main/java/com/thinking/common/core/constants/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-message/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-message/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-message/src/main/java/com/thinking/common/OjCommonMessageApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-message/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-rabbitmq/src/main/java/com/thinking/ojcommonrabbitmq/OjCommonRabbitmqApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-rabbitmq/src/main/java/com/thinking/common/OjCommonRabbitmqApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-rabbitmq/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-rabbitmq/src/test/java/com/thinking/ojcommonrabbitmq/OjCommonRabbitmqApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-rabbitmq/src/test/java/com/thinking/common/OjCommonRabbitmqApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-security/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-core/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-file/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-mybatis/src/main/java/com/thinking/common/OjCommonMybatisApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-rabbitmq/src/main/java/com/thinking/common/OjCommonRabbitmqApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-redis/src/main/java/com/thinking/common/OjCommonRedisApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-security/src/main/java/com/thinking/common/OjCommonSecurityApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-swagger/src/main/java/com/thinking/common/OjCommonSwaggerApplication.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,7 @@
     <option name="jreName" value="17" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -134,7 +134,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OjJobApplication">
+  <component name="RunManager" selected="Spring Boot.OjSystemApplication">
     <configuration name="OjFriendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="oj-friend" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.thinking.ojfriend.OjFriendApplication" />
@@ -199,6 +199,8 @@
       <workItem from="1737297230608" duration="4485000" />
       <workItem from="1737364784898" duration="17180000" />
       <workItem from="1737437438951" duration="5760000" />
+      <workItem from="1737455371236" duration="4418000" />
+      <workItem from="1737459805438" duration="1086000" />
     </task>
     <task id="LOCAL-00001" summary="初始化所有模块">
       <option name="closed" value="true" />
@@ -264,7 +266,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737387055539</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="添加阿里云短信服务和RabbitMQ配置">
+      <option name="closed" value="true" />
+      <created>1737455508541</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1737455508541</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,6 +298,8 @@
     <MESSAGE value="完成结果封装类以及一些封装类的编写" />
     <MESSAGE value="完成oj-common-core模块的代码编写，包括Result类、BaseController类和JwtUtils类。" />
     <MESSAGE value="完成token配置编写，并可以使用redis缓存token" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成token配置编写，并可以使用redis缓存token" />
+    <MESSAGE value="完成阿里短信和rabbit消息队列配置编写" />
+    <MESSAGE value="添加阿里云短信服务和RabbitMQ配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加阿里云短信服务和RabbitMQ配置" />
   </component>
 </project>
