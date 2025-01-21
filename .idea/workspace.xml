@@ -4,23 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27f8f418-9671-4c3e-b669-4c3bed4a9d62" name="Changes" comment="完成oj-common-core模块的代码编写，包括Result类、BaseController类和JwtUtils类。">
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-security/src/main/java/com/thinking/common/security/exception/ServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-security/src/main/java/com/thinking/common/security/handler/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-security/src/main/java/com/thinking/common/security/interceptor/TokenInterceptor.java" afterDir="false" />
+    <list default="true" id="27f8f418-9671-4c3e-b669-4c3bed4a9d62" name="Changes" comment="完成token配置编写，并可以使用redis缓存token">
+      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-message/src/main/java/com/thinking/common/message/service/AliSmsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-message/src/main/resources/META-INF/spring/oj-common/oj-common-message/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-rabbitmq/src/main/resources/META-INF/spring/oj-common/oj-common-security/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-common/oj-common-security/src/main/resources/META-INF/spring/oj-common/oj-common-rabbitmq/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-elsticsearch/src/main/java/com/thinking/ojcommonelsticsearch/OjCommonElsticsearchApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-elsticsearch/src/main/java/com/thinking/common/OjCommonElsticsearchApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-elsticsearch/src/test/java/com/thinking/ojcommonelsticsearch/OjCommonElsticsearchApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-elsticsearch/src/test/java/com/thinking/common/OjCommonElsticsearchApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-file/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-file/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-file/src/main/java/com/thinking/ojcommonfile/OjCommonFileApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-file/src/main/java/com/thinking/common/OjCommonFileApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-file/src/test/java/com/thinking/ojcommonfile/OjCommonFileApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-file/src/test/java/com/thinking/common/OjCommonFileApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-message/src/main/java/com/thinking/ojcommonmessage/OjCommonMessageApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-message/src/main/java/com/thinking/common/OjCommonMessageApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-message/src/test/java/com/thinking/ojcommonmessage/OjCommonMessageApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-message/src/test/java/com/thinking/common/OjCommonMessageApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-security/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-security/src/main/java/com/thinking/ojcommonsecurity/OjCommonSecurityApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-security/src/main/java/com/thinking/common/OjCommonSecurityApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-security/src/test/java/com/thinking/ojcommonsecurity/OjCommonSecurityApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-security/src/test/java/com/thinking/common/OjCommonSecurityApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-core/src/main/java/com/thinking/common/core/constants/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-core/src/main/java/com/thinking/common/core/constants/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-message/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-message/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-message/src/main/java/com/thinking/common/OjCommonMessageApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-message/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-rabbitmq/src/main/java/com/thinking/ojcommonrabbitmq/OjCommonRabbitmqApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-rabbitmq/src/main/java/com/thinking/common/OjCommonRabbitmqApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-rabbitmq/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-rabbitmq/src/test/java/com/thinking/ojcommonrabbitmq/OjCommonRabbitmqApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-common/oj-common-rabbitmq/src/test/java/com/thinking/common/OjCommonRabbitmqApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-common/oj-common-security/src/main/resources/application.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +197,8 @@
       <workItem from="1737283306356" duration="278000" />
       <workItem from="1737283593227" duration="2743000" />
       <workItem from="1737297230608" duration="4485000" />
-      <workItem from="1737364784898" duration="17056000" />
+      <workItem from="1737364784898" duration="17180000" />
+      <workItem from="1737437438951" duration="5760000" />
     </task>
     <task id="LOCAL-00001" summary="初始化所有模块">
       <option name="closed" value="true" />
@@ -258,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737366883077</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="完成token配置编写，并可以使用redis缓存token">
+      <option name="closed" value="true" />
+      <created>1737387055539</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1737387055539</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,6 +287,7 @@
     <MESSAGE value="基本完成core-common中所有常量类编写" />
     <MESSAGE value="完成结果封装类以及一些封装类的编写" />
     <MESSAGE value="完成oj-common-core模块的代码编写，包括Result类、BaseController类和JwtUtils类。" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成oj-common-core模块的代码编写，包括Result类、BaseController类和JwtUtils类。" />
+    <MESSAGE value="完成token配置编写，并可以使用redis缓存token" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成token配置编写，并可以使用redis缓存token" />
   </component>
 </project>

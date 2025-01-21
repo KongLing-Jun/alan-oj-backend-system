@@ -28,6 +28,8 @@ public class Constants {
 
     public static final String UNDERLINE_SEPARATOR = "_";
 
+    public static final String SEND_MESSAGE_SUCCESS = "OK";
+
     /**
      * UTF-8 字符集
      */

@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class OjCommonMessageApplication {
+public class OjCommonRabbitmqApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(OjCommonMessageApplication.class, args);
+        SpringApplication.run(OjCommonRabbitmqApplication.class, args);
     }
 
 }

@@ -1,0 +1,2 @@
+com.thinking.common.message.service.AliSmsService
+com.thinking.common.message.config.AliSmsConfig
