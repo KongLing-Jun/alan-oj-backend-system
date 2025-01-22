@@ -4,37 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27f8f418-9671-4c3e-b669-4c3bed4a9d62" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/domain/dto/exam/ExamAddDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/domain/dto/exam/ExamEditDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/domain/dto/exam/ExamQueryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/domain/dto/exam/ExamQuestAddDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/domain/dto/question/QuestionAddDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/domain/dto/question/QuestionEditDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/domain/dto/question/QuestionQueryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/domain/dto/sysUser/LoginDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/domain/dto/sysUser/UserSaveDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/domain/dto/user/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/domain/dto/user/UserQueryDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/domain/entity/Exam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/domain/entity/ExamQuestion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/domain/entity/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/domain/entity/SysUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/domain/vo/es/QuestionES.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/domain/vo/exam/ExamDetailVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/domain/vo/exam/ExamVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/domain/vo/question/QuestionDetailVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/domain/vo/question/QuestionVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/domain/vo/user/SysUserVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/domain/vo/user/UserVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/elasticsearch/QuestionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-system/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-modules/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="27f8f418-9671-4c3e-b669-4c3bed4a9d62" name="Changes" comment="添加系统用户、题目、考试相关实体和VO" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +15,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -237,7 +208,7 @@
       <workItem from="1737437438951" duration="5760000" />
       <workItem from="1737455371236" duration="4418000" />
       <workItem from="1737459805438" duration="1404000" />
-      <workItem from="1737558029120" duration="3343000" />
+      <workItem from="1737558029120" duration="3646000" />
     </task>
     <task id="LOCAL-00001" summary="初始化所有模块">
       <option name="closed" value="true" />
@@ -319,7 +290,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737461076408</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="添加系统用户、题目、考试相关实体和VO">
+      <option name="closed" value="true" />
+      <created>1737561661049</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1737561661049</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,6 +325,7 @@
     <MESSAGE value="完成阿里短信和rabbit消息队列配置编写" />
     <MESSAGE value="添加阿里云短信服务和RabbitMQ配置" />
     <MESSAGE value="移除冗余应用配置，添加OSS文件服务支持" />
-    <option name="LAST_COMMIT_MESSAGE" value="移除冗余应用配置，添加OSS文件服务支持" />
+    <MESSAGE value="添加系统用户、题目、考试相关实体和VO" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加系统用户、题目、考试相关实体和VO" />
   </component>
 </project>
