@@ -3,3 +3,19 @@ server:
 spring:
   application:
     name: oj-system
+  profiles:
+    active: local
+#  cloud:
+#    nacos:
+#      discovery:
+#        namespace: ${spring.profiles.active}
+#        server-addr: ${nacos.server-addr}
+#        username: ${nacos.username}
+#        password: ${nacos.password}
+#        ip: ${nacos.ip}
+#      config:
+#        namespace: ${spring.profiles.active}
+#        server-addr: ${nacos.server-addr}
+#        file-extension: yaml
+#        username: ${nacos.username}
+#        password: ${nacos.password}
