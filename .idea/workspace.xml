@@ -4,30 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27f8f418-9671-4c3e-b669-4c3bed4a9d62" name="Changes" comment="添加系统用户、题目、考试相关实体和VO">
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/controller/ExamController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/controller/QuestionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/controller/SysUserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/manager/ExamCacheManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/manager/QuestionCacheManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/manager/UserCacheManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/service/ExamService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/service/QuestionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/service/SysUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/service/impl/ExamServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/service/impl/QuestionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/service/impl/SysUserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+    <list default="true" id="27f8f418-9671-4c3e-b669-4c3bed4a9d62" name="Changes" comment="添加系统用户、题目、考试相关接口和实现">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/domain/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/domain/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/mapper/ExamMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/mapper/ExamMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/mapper/ExamQuestionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/mapper/ExamQuestionMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/mapper/QuestionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/mapper/QuestionMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/mapper/SysUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/mapper/SysUserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/controller/SysUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/controller/SysUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/service/SysUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/service/SysUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/service/impl/SysUserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +217,7 @@
       <workItem from="1737455371236" duration="4418000" />
       <workItem from="1737459805438" duration="1404000" />
       <workItem from="1737558029120" duration="3876000" />
-      <workItem from="1737645484174" duration="2347000" />
+      <workItem from="1737645484174" duration="3558000" />
     </task>
     <task id="LOCAL-00001" summary="初始化所有模块">
       <option name="closed" value="true" />
@@ -334,7 +315,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737561763017</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="添加系统用户、题目、考试相关接口和实现">
+      <option name="closed" value="true" />
+      <created>1737647850692</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1737647850692</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,6 +351,7 @@
     <MESSAGE value="添加阿里云短信服务和RabbitMQ配置" />
     <MESSAGE value="移除冗余应用配置，添加OSS文件服务支持" />
     <MESSAGE value="添加系统用户、题目、考试相关实体和VO" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加系统用户、题目、考试相关实体和VO" />
+    <MESSAGE value="添加系统用户、题目、考试相关接口和实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加系统用户、题目、考试相关接口和实现" />
   </component>
 </project>
