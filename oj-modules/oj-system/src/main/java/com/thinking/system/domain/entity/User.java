@@ -26,7 +26,7 @@ public class User extends BaseEntity {
 
     @JsonSerialize(using = ToStringSerializer.class)
     @TableId(value = "USER_ID", type = IdType.ASSIGN_ID)
-    private Long id;
+    private Long userId;
 
     private String nickName;
 

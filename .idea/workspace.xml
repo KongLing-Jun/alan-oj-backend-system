@@ -4,7 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27f8f418-9671-4c3e-b669-4c3bed4a9d62" name="Changes" comment="添加系统用户、题目、考试相关实体和VO" />
+    <list default="true" id="27f8f418-9671-4c3e-b669-4c3bed4a9d62" name="Changes" comment="添加系统用户、题目、考试相关实体和VO">
+      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/controller/ExamController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/controller/QuestionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/controller/SysUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/manager/ExamCacheManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/manager/QuestionCacheManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/manager/UserCacheManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/service/ExamService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/service/QuestionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/service/SysUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/service/impl/ExamServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/service/impl/QuestionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/domain/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/domain/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/mapper/ExamMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/mapper/ExamMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/mapper/ExamQuestionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/mapper/ExamQuestionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/mapper/QuestionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/mapper/QuestionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/mapper/SysUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/mapper/SysUserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/mapper/UserMapper.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +38,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -60,48 +84,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BCryptUtils.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "Maven.alan-oj [compile].executor": "Run",
-    "Maven.alan-oj [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
-    "Maven.alan-oj [org.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile].executor": "Run",
-    "Maven.alan-oj [org.apache.maven.plugins:maven-install-plugin:3.0.1:install].executor": "Run",
-    "Maven.oj-common-swagger [org.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile].executor": "Run",
-    "Maven.oj-modules [clean].executor": "Run",
-    "Maven.oj-modules [compile].executor": "Run",
-    "Maven.oj-system [clean].executor": "Run",
-    "Maven.oj-system [compile].executor": "Run",
-    "Maven.oj-system [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
-    "Maven.oj-system [org.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.OjFriendApplication.executor": "Run",
-    "Spring Boot.OjJobApplication.executor": "Run",
-    "Spring Boot.OjJudgeApplication.executor": "Run",
-    "Spring Boot.OjSystemApplication.executor": "Run",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "F:/oj-system/oj-backend-system/alan-oj/oj-common/oj-common-redis/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.20114942",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BCryptUtils.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.alan-oj [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.alan-oj [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.alan-oj [org.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.alan-oj [org.apache.maven.plugins:maven-install-plugin:3.0.1:install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.oj-common-swagger [org.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.oj-modules [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.oj-modules [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.oj-system [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.oj-system [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.oj-system [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.oj-system [org.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.OjFriendApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.OjJobApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.OjJudgeApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.OjSystemApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/oj-system/oj-backend-system/alan-oj/oj-common/oj-common-redis/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.20114942&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\oj-system\oj-backend-system\alan-oj\oj-common\oj-common-redis\src\main\resources" />
@@ -112,6 +136,9 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\oj-system\oj-backend-system\alan-oj\oj-common\oj-common-redis\src\main\resources\META-INF\spring" />
       <recent name="F:\oj-system\oj-backend-system\alan-oj" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.thinking.system.service.impl" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -208,7 +235,8 @@
       <workItem from="1737437438951" duration="5760000" />
       <workItem from="1737455371236" duration="4418000" />
       <workItem from="1737459805438" duration="1404000" />
-      <workItem from="1737558029120" duration="3646000" />
+      <workItem from="1737558029120" duration="3876000" />
+      <workItem from="1737645484174" duration="2347000" />
     </task>
     <task id="LOCAL-00001" summary="初始化所有模块">
       <option name="closed" value="true" />
@@ -298,7 +326,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737561661049</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="添加系统用户、题目、考试相关实体和VO">
+      <option name="closed" value="true" />
+      <created>1737561763017</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1737561763017</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
