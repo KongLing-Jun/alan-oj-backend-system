@@ -94,5 +94,4 @@ public class SysUserController extends BaseController {
                                     @RequestParam(required = false) String sex) {
         return sysUserService.detail(userId, sex);
     }
-
 }
