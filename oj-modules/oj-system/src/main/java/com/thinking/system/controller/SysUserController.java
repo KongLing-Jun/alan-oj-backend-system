@@ -1,7 +1,9 @@
 package com.thinking.system.controller;
 
+import com.thinking.common.core.constants.HttpConstants;
 import com.thinking.common.core.controller.BaseController;
 import com.thinking.common.core.domain.Result;
+import com.thinking.common.core.domain.VO.LoginUserVO;
 import com.thinking.system.domain.dto.sysUser.LoginDTO;
 import com.thinking.system.domain.dto.sysUser.UserSaveDTO;
 import com.thinking.system.domain.vo.user.SysUserVO;
@@ -53,6 +55,18 @@ public class SysUserController extends BaseController {
     @ApiResponse(responseCode = "3103", description = "用户名或密码错误")
     public Result<String> login(@RequestBody LoginDTO loginDTO) {
         return sysUserService.login(loginDTO.getUserAccount(),loginDTO.getPassword());
+    }
+
+    //接口地址：/system/sysUser/logout
+    @DeleteMapping("/logout")
+    public Result<Void> logout(@RequestHeader(HttpConstants.AUTHENTICATION) String token) {
+        return toResult(sysUserService.logout(token));
+    }
+
+    //接口地址：/system/sysUser/info
+    @GetMapping("/info")
+    public Result<LoginUserVO> info(@RequestHeader(HttpConstants.AUTHENTICATION) String token) {
+        return sysUserService.info(token);
     }
 
     //管理员的增删改查
