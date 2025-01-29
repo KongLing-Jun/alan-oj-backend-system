@@ -24,7 +24,7 @@ public class QuestionQueryDTO extends PageQueryDTO {
 
     private String title;
 
-    private String excludeIdStr;       //  ;
+    private String excludeIdStr;       //题目id，多个用逗号隔开;
 
     private Set<Long> excludeIdSet;
 }

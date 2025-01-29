@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27f8f418-9671-4c3e-b669-4c3bed4a9d62" name="Changes" comment="添加系统用户、题目、考试相关接口和实现">
+    <list default="true" id="27f8f418-9671-4c3e-b669-4c3bed4a9d62" name="Changes" comment="添加用户登出和信息查询接口">
+      <change afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/resources/mapper/QuestionMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/controller/SysUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/controller/SysUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/mapper/SysUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/mapper/SysUserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/controller/QuestionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/domain/dto/question/QuestionQueryDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/domain/dto/question/QuestionQueryDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/manager/QuestionCacheManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/manager/QuestionCacheManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/service/QuestionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/service/SysUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/service/SysUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/service/impl/QuestionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/oj-modules/oj-system/src/main/java/com/thinking/system/service/impl/QuestionServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +222,9 @@
       <workItem from="1737459805438" duration="1404000" />
       <workItem from="1737558029120" duration="3876000" />
       <workItem from="1737645484174" duration="3616000" />
-      <workItem from="1737730193311" duration="2512000" />
+      <workItem from="1737730193311" duration="2863000" />
+      <workItem from="1738162200809" duration="548000" />
+      <workItem from="1738162757773" duration="2701000" />
     </task>
     <task id="LOCAL-00001" summary="初始化所有模块">
       <option name="closed" value="true" />
@@ -332,7 +338,23 @@
       <option name="project" value="LOCAL" />
       <updated>1737649058701</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="优化系统用户登录、登出和信息查询逻辑">
+      <option name="closed" value="true" />
+      <created>1737733285873</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1737733285873</updated>
+    </task>
+    <task id="LOCAL-00016" summary="添加用户登出和信息查询接口">
+      <option name="closed" value="true" />
+      <created>1737733498540</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1737733498540</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,6 +383,8 @@
     <MESSAGE value="移除冗余应用配置，添加OSS文件服务支持" />
     <MESSAGE value="添加系统用户、题目、考试相关实体和VO" />
     <MESSAGE value="添加系统用户、题目、考试相关接口和实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加系统用户、题目、考试相关接口和实现" />
+    <MESSAGE value="优化系统用户登录、登出和信息查询逻辑" />
+    <MESSAGE value="添加用户登出和信息查询接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加用户登出和信息查询接口" />
   </component>
 </project>

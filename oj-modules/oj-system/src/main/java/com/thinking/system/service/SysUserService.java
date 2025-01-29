@@ -3,7 +3,6 @@ package com.thinking.system.service;
 import com.thinking.common.core.domain.Result;
 import com.thinking.common.core.domain.VO.LoginUserVO;
 import com.thinking.system.domain.dto.sysUser.UserSaveDTO;
-import com.thinking.system.domain.entity.SysUser;
 import com.thinking.system.domain.vo.user.SysUserVO;
 
 public interface SysUserService {

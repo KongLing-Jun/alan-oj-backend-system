@@ -27,7 +27,7 @@ public class QuestionCacheManager {
         redisService.leftPushForList(CacheConstants.QUESTION_LIST, questionId);
     }
 
-    public void removeCache(Long questionId) {
+    public void deleteCache(Long questionId) {
         redisService.removeForList(CacheConstants.QUESTION_LIST, questionId);
     }
 }
