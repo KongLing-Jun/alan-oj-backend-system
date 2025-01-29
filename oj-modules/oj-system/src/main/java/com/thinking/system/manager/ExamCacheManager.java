@@ -28,7 +28,7 @@ public class ExamCacheManager {
         redisService.leftPushForList(getExamListKey(), exam.getExamId());
     }
 
-    public void removeCache(Long examId) {
+    public void deleteCache(Long examId) {
         redisService.removeForList(getExamListKey(), examId);
         redisService.deleteObject(getDetailKey(examId));
         redisService.deleteObject(getExamQuestionListKey(examId));
