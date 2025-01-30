@@ -5,6 +5,28 @@
 <mapper namespace="com.thinking.system.mapper.UserMapper">
 
     <select id="selectUserList" resultType="com.thinking.system.domain.vo.user.UserVO">
-
+        SELECT
+            user_id,
+            nick_name,
+            sex,
+            phone,
+            email,
+            wechat,
+            school_name,
+            major_name,
+            introduce,
+            status
+        FROM
+            tb_user
+        <where>
+            <if test="userId != null">
+                user_id = #{userId}
+            </if>
+            <if test="nickName != null and nickName != ''">
+                AND nick_name LIKE CONCAT('%',#{nickName},'%')
+            </if>
+        </where>
+        order by
+            create_time desc
     </select>
 </mapper>

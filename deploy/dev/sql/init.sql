@@ -60,4 +60,3 @@ create table tb_exam_question
     update_time      datetime comment '更新时间',
     primary key (exam_question_id)
 );
-

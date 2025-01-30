@@ -1,4 +1,4 @@
-package com.thinking.ojfriend;
+package com.thinking.friend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,5 +9,4 @@ public class OjFriendApplication {
     public static void main(String[] args) {
         SpringApplication.run(OjFriendApplication.class, args);
     }
-
 }
